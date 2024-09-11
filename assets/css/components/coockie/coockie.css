@@ -1,0 +1,30 @@
+.coockie{
+    background-color: var(--white);
+    width: 340px;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+}
+
+.coockie.disabled{
+    display: none;
+}
+
+.coockie__text{
+    font-weight: 700;
+}
+
+.coockie__button{
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--brown);
+    color: var(--white);
+    margin-top: 15px;
+    transition: background-color 0.4s;
+}
+
+.coockie__button:hover{
+    background-color: #774636;
+}

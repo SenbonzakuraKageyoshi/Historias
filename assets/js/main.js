@@ -37,4 +37,15 @@ window.addEventListener("DOMContentLoaded", () => {
         });
     });
 
+    if(localStorage.getItem('coockie')){
+        document.querySelector('.coockie').classList.add('disabled');
+    }
+
+    const setCoockieConfirmation = () => {
+        localStorage.setItem('coockie', 'ok');
+        document.querySelector('.coockie').classList.add('disabled');
+    };
+
+    document.querySelectorAll('.coockie__button').forEach((el) => el.addEventListener('click', setCoockieConfirmation))
+
 });
