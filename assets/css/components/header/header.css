@@ -1,0 +1,12 @@
+.header{
+    padding: 40px 0px;
+}
+
+.header .title{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.header .logo{
+    text-align: center;
+}

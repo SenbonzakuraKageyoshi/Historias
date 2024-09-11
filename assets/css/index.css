@@ -1,0 +1,20 @@
+@import './vendors/index.css';
+@import './components/index.css';
+@import './pages/index.css';
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+body{
+    background-image: url(../../assets/images/jpg/background.jpg);
+    background-size: cover;
+}
+
+.container{
+    max-width: 1420px;
+    padding: 0px 10px;
+    margin: 0 auto;
+}

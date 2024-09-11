@@ -1,0 +1,25 @@
+.footer{
+    padding: 50px 0px;
+    background-color: #774636;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clipboard{
+    background-color: var(--white);
+    width: 340px;
+    height: 60px;
+    font-size: 18px;
+    border-radius: 25px;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.clipboard:hover{
+    color: var(--white);
+    background-color: var(--black);
+}
